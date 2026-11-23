@@ -1,0 +1,28 @@
+{
+  "name": "accessibility-learning",
+  "version": "0.1.0",
+  "description": "Gamified accessibility learning platform with hands-on screen reader simulation, progressive certification, and corporate training readiness",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "docs": "vitepress build docs",
+    "dev": "vitepress dev docs"
+  },
+  "keywords": ["accessibility", "a11y", "learning", "gamified", "screen-reader", "certification", "education"],
+  "author": "zkzWilliamzhou",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkzWilliamzhou/accessibility-learning.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
